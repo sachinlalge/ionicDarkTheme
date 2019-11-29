@@ -12,7 +12,7 @@ export class Tab1Page {
     private themeService: ThemeService,
   ) {
 
-    // this.darkMode = this.themeService.darkMode;
+    this.darkMode = this.themeService.darkMode;
   }
 
 }
